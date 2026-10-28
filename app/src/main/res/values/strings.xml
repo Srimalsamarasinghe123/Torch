@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Torch</string>
+    <string name="flash_on">FLASH ON</string>
+    <string name="flash_off">FLASH OFF</string>
+    <string name="sos_pattern">SOS</string>
+    <string name="stop_sos">STOP</string>
+    <string name="brightness_control">Brightness Control</string>
+    <string name="camera_not_accessible">Camera hardware not accessible</string>
+</resources>

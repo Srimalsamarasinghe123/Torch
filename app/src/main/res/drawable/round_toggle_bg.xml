@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@android:color/holo_blue_light" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/flashlight_on_24px"
+                android:top="40dp"
+                android:bottom="40dp"
+                android:left="40dp"
+                android:right="40dp" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#000000" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/flashlight_off_24px"
+                android:top="40dp"
+                android:bottom="40dp"
+                android:left="40dp"
+                android:right="40dp" />
+        </layer-list>
+    </item>
+</selector>
